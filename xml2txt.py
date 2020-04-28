@@ -45,13 +45,13 @@ class Xml2Txt(object):
         labels = dict()
 
         # data-mining
-        for magazine in ["VLDB", "ICDE", "SIGMOD", "PODS", "KDD", "WWW", "CIKM", "ICDM", "PAKDD", "TKDE"]:
+        for magazine in ["VLDB", "ICDE", "SIGMOD", "PODS", "KDD", "CIKM", "ICDM", "PAKDD", "TKDE"]:
             labels[magazine] = 1
         #networking
-        for magazine in ["TCOM", "INFOCOM", "MOBICOM", "SIGCOMM", "VTC", "MobiHoc", "IPSN", "SenSys", "HPCA", "WCNC", "HPDC", "ICNP"]:
+        for magazine in ["TCOM", "INFOCOM", "MOBICOM", "SIGCOMM", "VTC", "MobiHoc", "IPSN", "SenSys", "WCNC", "HPDC", "ICNP"]:
             labels[magazine] = 2
         #machine-learning
-        for magazine in ["NIPS", "ICML", "UAI", "ICPR", "AAAI", "IJCAI", "ICGA", "ICPR", "FGR", "ISNN","TEC"]:
+        for magazine in ["NIPS", "ICML", "UAI", "ICPR", "AAAI", "IJCAI", "ICGA", "FGR", "ISNN","TEC"]:
             labels[magazine] = 3
         #bioinformatics
         for magazine in ["bioinformatics", "BioMED", "ISMB", "RECOMB", "Biocomputing"]:
